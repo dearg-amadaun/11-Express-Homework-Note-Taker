@@ -9,7 +9,6 @@ app.use(express.static('public'));
 app.use(express.json());
 
 //Routing
-const express = require("express");
 const apiRoute = require("./routes/api_routes");
 const htmlRoute = require("./routes/html_routes");
 app.use('/api', apiRoute);
