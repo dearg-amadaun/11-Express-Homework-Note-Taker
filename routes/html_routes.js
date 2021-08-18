@@ -14,4 +14,3 @@ router.get('*', (res) => {
 });
 
 module.exports = router;
-
