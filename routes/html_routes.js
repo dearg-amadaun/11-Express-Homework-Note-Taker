@@ -1,18 +1,18 @@
-// Import express package
+//Dependencies
 const express = require('express');
+const router = express.Router();
+const path = require('path');
+const fs = require('fs');
 
-// Require the JSON file and assign it to a variable called `termData`
-const termData = require('./terms.json');
-const PORT = 3001;
+//* `GET /notes` should return the `notes.html` file.
+router.get('/notes', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/notes.html'))
+});
 
-// Initialize our app variable by setting it to the value of express()
-const app = express();
+//* `GET *` should return the `index.html` file.
+router.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'))
+});
 
-app.get('/', (req, res) => res.send('Visit http://localhost:3001/api'));
+module.exports = router;
 
-// res.json() allows us to return JSON instead of a buffer, string, or static file
-app.get('/api/terms', (req, res) => res.json(termData));
-
-app.listen(PORT, () =>
-  console.log(`Example app listening at http://localhost:${PORT}`)
-);
