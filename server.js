@@ -1,7 +1,5 @@
 //Dependencies
 const express = require('express');
-const path = require('path');
-const fs = require('fs');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -11,8 +9,11 @@ app.use(express.static('public'));
 app.use(express.json());
 
 //Routing
-app.use('/api', api_routes);
-app.use('/', html_routes);
+const express = require("express");
+const apiRoute = require("./routes/api_routes");
+const htmlRoute = require("./routes/html_routes");
+app.use('/api', apiRoute);
+app.use('/', htmlRoute);
 
 //Listener
 app.listen(PORT, () =>
