@@ -28,15 +28,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Project Links
 Below are links to the git repository, the deployed application on Heroku, and a video demonstration of the application. 
-[![Landing Page](Assets\note1.jpg)] 
+![Note Taker](Assets\note1.jpg?raw=true)
 
 * [Github](https://github.com/dearg-amadaun/11-Express-Homework-Note-Taker)
 * [Heroku (deployed)](https://note-taker-express-homework-11.herokuapp.com/)
-* [Video Demonstration]()
-
-
-
-
+* [Video Demonstration](https://drive.google.com/file/d/15BUs_DT9qpvVMaqJEAJLOI9NRzU7lUAt/view?usp=sharing)
 
 
 ## Programs used
