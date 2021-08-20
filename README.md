@@ -28,7 +28,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Project Links
 Below are links to the git repository, the deployed application on Heroku, and a video demonstration of the application. 
-![Note Taker](https://raw.githubusercontent.com/dearg-amadaun/11-Express-Homework-Note-Taker/main/Assets/note1.jpg)
+![Note Taker](https://raw.githubusercontent.com/dearg-amadaun/11-Express-Homework-Note-Taker/main/Assets/note1.jpg)](https://github.com/dearg-amadaun/11-Express-Homework-Note-Taker)
 
 * [Github](https://github.com/dearg-amadaun/11-Express-Homework-Note-Taker)
 * [Heroku (deployed)](https://note-taker-express-homework-11.herokuapp.com/)
