@@ -1,7 +1,7 @@
-# 11-Express-Homework-Note-Taker
+# 11-Express-Note-Taker
 Express Note Taker
 
-This weeks homework was to fill in starter code using EXPRESS to build the back end of an app for taking notes.
+This porject involved refactoring code using EXPRESS to build the back end of an app for taking notes.
 
 ## User Story and Acceptance Criteria
 
