@@ -1,7 +1,7 @@
 # Express-Note-Taker
 Express Note Taker
 
-A Javascript and Express based app that allows the user to input and save simple notes.
+A Node.js and Express based app that allows the user to input and save simple notes.
 
 ## Project Links
 Below are links to the git repository, the deployed application on Heroku, and a video demonstration of the application. 
